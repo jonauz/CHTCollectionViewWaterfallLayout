@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Swift' do |ss|
-    ss.ios.deployment_target = '9.0'
+    ss.ios.deployment_target = '8.0'
     ss.source_files = '*.swift'
   end
 end
